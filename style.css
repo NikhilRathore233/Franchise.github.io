@@ -1,0 +1,706 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --Poppins-fonts: "Poppins", sans-serif;
+    --Nunito-fonts: "Nunito", sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px;
+}
+
+.logo {
+    padding: 0px 50px;
+}
+
+.wrapper .logo img {
+    height: 65px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.wrapper .menu ul {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper .menu ul li {
+    padding: 10px 23px;
+
+}
+
+.wrapper .menu {
+    align-items: center;
+    display: flex;
+}
+
+.list-wrapper a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: var(--Poppins-fonts);
+}
+
+.list-wrapper a:hover {
+    text-decoration: none;
+    color: green;
+    font-size: 16px;
+    font-family: var(--Poppins-fonts);
+}
+
+.list-wrapper {
+    list-style-type: none;
+}
+
+
+/*About Us*/
+.content-of-aboutus h3 {}
+
+.About-Us {
+    padding: 40px;
+    background-color: #d6ffd8;
+    font-family: var(--Poppins-fonts);
+}
+
+.content-of-aboutus h4 {
+    font-weight: 600;
+    letter-spacing: 0px;
+    FONT-SIZE: 21PX;
+    font-family: var(--Poppins-fonts);
+
+}
+
+ol,
+ul {
+    padding-left: 0rem !important;
+}
+
+
+.About-Us h3 {
+    color: green;
+    letter-spacing: 0px;
+    border-width: 3px;
+    font-family: var(--Poppins-fonts);
+    font-weight: 800;
+    font-size: 39px;
+
+}
+
+.content-of-aboutus p {
+    font-family: 'Poppins';
+    text-align: justify;
+}
+
+/*About Us*/
+
+
+
+.Contact-btn {
+    background-color: green;
+    border-radius: 28px;
+}
+
+.Contact-btn a {
+    color: white !important;
+}
+
+
+
+
+.Contact-btn:hover {
+    background-color: black;
+    transition: ease-in-out 0.5s;
+}
+
+.Contact-btn a {
+    color: white;
+    padding: 10px;
+}
+
+.Social-Media {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.Social-Media i {
+    margin: 10px;
+}
+
+.top-header {
+    display: flex;
+    font-family: var(--Poppins-fonts);
+    justify-content: space-between;
+    background-color: green;
+}
+
+.top-header .contact {
+    display: flex;
+    color: white;
+    padding: 9px 0px;
+}
+
+
+.content-contact {
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.menu-bar {
+    display: none;
+}
+
+
+.slider .slider-content h2 {
+    color: white;
+    font-weight: 600;
+    font-family: var(--Poppins-fonts);
+    font-size: 43px;
+}
+
+.slider .slider-content p {
+    font-family: var(--Nunito-fonts);
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+}
+
+.slider .row {
+    justify-content: center;
+}
+
+
+.slider {
+    background-image: url(img/play.png);
+    background-size: cover;
+    width: 100%;
+
+}
+
+
+.slider form input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+}
+
+.slider form select {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+}
+
+form {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.form-wrapper h2 {
+    font-family: var(--Poppins-fonts);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.form-wrapper h5 {
+    font-family: var(--Poppins-fonts);
+    font-size: 22px;
+    font-weight: 600;
+    color: green;
+}
+
+.form-wrapper .submit-btnn {
+    background-color: green;
+    color: white;
+}
+
+
+form .row {
+    row-gap: 16px;
+}
+
+.slider form h2 {
+    text-align: center;
+}
+
+
+.Our-Presence {
+    margin: 60px 60px;
+}
+
+.Our-Presence .content-heading {
+    font-family: var(--Poppins-fonts);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+
+.Our-Presence img {
+    height: 86px;
+    width: 69px;
+    object-fit: cover;
+}
+
+
+.Our-Presence .content h4 {
+    font-size: 18px;
+    font-family: var(--Poppins-fonts);
+
+
+
+}
+
+.Our-Presence .img-section {
+    display: flex;
+    justify-content: center;
+}
+
+.Our-Presence .col h4 {
+    font-family: var(--Poppins-fonts);
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+
+
+.Our-Presence .col-lg {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    padding: 17px 10px;
+}
+
+.Our-Presence .col-lg:hover {
+    transition: 0.5s;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+.Our-Presence .row {
+    column-gap: 20px;
+}
+
+.content-heading {
+    font-family: var(--Poppins-fonts);
+    font-weight: 700;
+    font-size: 35px;
+}
+
+
+
+/*footer starting*/
+footer {
+    background: green;
+    color: white;
+    padding: 50px 10px;
+}
+
+footer h3 {
+    font-family: var(--Poppins-fonts);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+footer .blog-content {
+    display: flex;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    font-family: var(--Nunito-fonts);
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+.blog-content p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+footer .blog-content img {
+    height: 40px;
+    margin-right: 11px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0rem;
+
+}
+
+footer ul a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--Nunito-fonts);
+}
+
+#toogle:checked ~ #jumbo{
+    
+        align-items: center;
+        position: absolute;
+        top: 130px;
+        padding: 32px 10px;
+        transition: all 2s;
+        text-align: left;
+        background: #9bb13d;
+        left: 0% !important;
+        width: 100%;
+        justify-content: center;
+    
+
+}
+
+footer ul li {
+    padding: 3px 0px;
+}
+
+
+/*footer closing*/
+
+/**why choose us **/
+
+.Why-Choose-Us p {
+    font-family: var(--Poppins-fonts);
+
+}
+
+
+.Why-Choose-Us h5 {
+    font-family: var(--Poppins-fonts);
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.Why-Choose-Us .col-lg {
+
+    background-color: rgb(212, 212, 212);
+    margin: 10px;
+    text-align: center;
+}
+
+.img-section-why-choose img {
+    background-color: green;
+    border-radius: 100%;
+    padding: 10px;
+    height: 60px;
+    width: 60px;
+}
+
+.why-choose-images1 {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/*why choose us*/
+
+/*Call to Action*/
+
+.Call-To-Action h2 {
+    font-family: var(--Poppins-fonts);
+    font-weight: 600;
+}
+
+
+
+
+
+
+.Call-To-Action {
+
+    background-color: green;
+    padding: 30px 0px;
+    text-align: center;
+    color: white;
+    font-family: var(--Poppins-fonts);
+    margin: 70px 0px;
+
+}
+
+.Call-To-Action button {
+    border-radius: 30px;
+    border: 0px;
+    padding: 10px 20px;
+    font-family: var(--Poppins-fonts);
+}
+
+
+/*Call To Action*/
+
+
+/*testimonials  starting*/
+/* Importing Google fonts - Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+.card-wrapper {
+    max-width: 1100px;
+    margin: 0 60px 35px;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+.card-list .card-item {
+    list-style: none;
+}
+
+.card-list .card-item .card-link {
+    display: block;
+    background: #fff;
+    padding: 18px;
+    user-select: none;
+    text-align: center;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+}
+
+.card-list .card-item .card-link:active {
+    cursor: grabbing;
+}
+
+.star-img {
+    height: 35px;
+    width: 119px;
+}
+
+.card-item .name {
+    margin-bottom: 0px;
+    color: green;
+
+}
+
+
+.card-list .card-item .card-link {
+    border-color: rgb(9, 231, 9);
+    height: 289px;
+}
+
+.card-list .card-link .card-image {
+    width: 73px;
+    border-radius: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    height: 71px;
+}
+
+.card-list .card-link .badge {
+    color: #0a0a0a;
+    width: fit-content;
+    padding: 0px 16px;
+    font-size: 0.95rem;
+    border-radius: 50px;
+    font-weight: 800;
+    margin: 13px 0 5px;
+    font-family: 'Poppins';
+}
+
+
+
+.card-list .card-link .card-title {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+.card-list .card-link .card-button {
+    height: 35px;
+    width: 35px;
+    color: #5372F0;
+    margin: 30px 0 5px;
+    background: none;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #5372F0;
+    transform: rotate(-45deg);
+    transition: 0.4s ease;
+}
+
+.card-list .card-link:hover .card-button {
+    color: #fff;
+    background: #5372F0;
+}
+
+.card-wrapper .swiper-pagination-bullet {
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+    background: #53ff1b;
+}
+
+.card-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+.card-wrapper .swiper-slide-button {
+    color: #03a300;
+    margin-top: -35px;
+}
+
+/* Responsive media query code for small screens */
+@media (max-width: 768px) {
+    .card-wrapper {
+        margin: 0 10px 25px;
+    }
+
+    .Our-Presence .col-lg {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 8px;
+        padding: 17px 10px;
+        margin-bottom: 29px;
+    }
+
+    .content-heading {
+        font-family: var(--Poppins-fonts);
+        font-weight: 700;
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .Our-Presence {
+        margin: 61px 20px;
+    }
+
+    .About-Us {
+        padding: 14px;
+        background-color: #d6ffd8;
+        font-family: var(--Poppins-fonts);
+    }
+
+    .slider .slider-content p {
+        font-family: var(--Nunito-fonts);
+        font-size: 18px;
+        color: white;
+        font-weight: 600;
+    }
+
+    .slider .slider-content h2 {
+        color: white;
+        font-weight: 600;
+        font-family: var(--Poppins-fonts);
+        font-size: 31px;
+    }
+
+    .About-Us h3 {
+        color: green;
+        letter-spacing: 0px;
+        border-width: 3px;
+        font-family: var(--Poppins-fonts);
+        font-weight: 800;
+        font-size: 26px;
+    }
+
+    .content-of-aboutus h4 {
+        font-weight: 600;
+        letter-spacing: 0px;
+        FONT-SIZE: 15PX;
+        font-family: var(--Poppins-fonts);
+    }
+
+    .card-wrapper .swiper-slide-button {
+        display: none;
+    }
+}
+
+/*testimonials closing*/
+
+
+/*about us page starting*/
+.about-us-banner img {
+    height: 236px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.first-section h2,
+p {
+    font-family: var(--Poppins-fonts);
+}
+
+.first-section img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.first-section {}
+
+
+/*about us page ending*/
+
+
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 1208px) {
+
+    .menu-bar {
+        display: block;
+    }
+
+
+    .menu ul {
+        display: block !important;
+    }
+
+    .wrapper .menu ul li {
+        padding: 10px 23px;
+        text-align: center;
+    }
+
+
+    .top-header .contact {
+        display: flex;
+        color: white;
+        justify-content: center;
+        padding: 9px 0px;
+    }
+
+    .content-contact {
+        margin-left: 5px;
+        margin-right: 5px;
+
+    }
+
+    .wrapper {
+        justify-content: space-between;
+        padding: 10px 50px;
+
+    }
+
+    .wrapper .menu {
+        align-items: center;
+        position: absolute;
+        top: 130px;
+        padding: 32px 10px;
+        /* text-align: left; */
+        background: #9bb13d;
+        left: -100%;
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    .logo {
+        padding: 0px 0px !important;
+    }
+}
